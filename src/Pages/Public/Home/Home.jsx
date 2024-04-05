@@ -23,8 +23,6 @@ const Home = () => {
                     )
                 }
             </ul>
-
-
         </section>
     );
 };

@@ -6,12 +6,14 @@ import Collapse from "@/Components/Collapse";
 import aboutinfo from "@/assets/Data/infocollapse.json";
 import '@/Components/collapse.css'
 
+import imgbanner from "@/assets/Images/Section2.jpeg";
+
 import './about.css'
 
 const About = () => {
     return (
         <section className='SectionAbout'>
-            <Banner page="about"/>
+            <Banner image={imgbanner} title="" />
 
             <ul className='ulCollapseContainer'>
                 {
