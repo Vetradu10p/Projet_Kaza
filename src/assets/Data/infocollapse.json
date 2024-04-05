@@ -1,0 +1,22 @@
+[
+	{
+		"id": "1",
+		"title": "Fiabilité",
+		"description": "Nous sommes fiable"
+	},
+    {
+		"id": "2",
+		"title": "Respect",
+		"description": "Nous vous respectons"
+	},
+    {
+		"id": "3",
+		"title": "Service",
+		"description": "Nous sommes à votre service"
+	},
+    {
+		"id": "4",
+		"title": "Sécurité",
+		"description": "Nous assurons la sécurité"
+	}
+]

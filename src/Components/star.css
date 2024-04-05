@@ -1,0 +1,7 @@
+.star {
+    color: #808080;
+}
+
+.star.active {
+    color: #FF6060;
+}
