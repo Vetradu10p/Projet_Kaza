@@ -6,8 +6,10 @@ import { LogementService } from '@/_service/logement.service';
 import Collapse from '@/Components/Collapse';
 import RatingStars from '@/Components/Star';
 import Gallery from '@/Components/Gallery';
+import Equipements from '@/Components/Equipments';
 
-import './LogementDetail.css'
+// import './LogementDetail.css'
+import '@/assets/Scss/Components/logementDetail.scss'
 
 const LogementDetail = () => {
 
@@ -62,7 +64,7 @@ const LogementDetail = () => {
                 </div>
                 <div className='CollapseLogementDetailContainer'>
                     <Collapse title="Description" description={logement.description} ></Collapse>
-                    <Collapse title="Equipements" description={logement.equipments} ></Collapse>
+                    <Collapse title="Equipements" ><ul className='EquipmentLogementDetail'>{logement.equipments.map((equipments, index) => (<li key={index}>{equipments}</li>))}</ul></Collapse>
                 </div>
             </div>
 

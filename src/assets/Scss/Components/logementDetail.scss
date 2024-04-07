@@ -1,0 +1,140 @@
+.BodyLogementDetailContainer {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .LogementDetailContainer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+        .CoverContainer {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .ImgLogementDetail {
+                object-fit: cover;
+                border-radius: 15px;
+                width: 100%;
+                height: 100%;
+            }
+
+            .CarouselArrowLeft,
+            .CarouselArrowRight {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%) rotate(90deg);
+                width: 70px;
+            }
+
+            .CarouselArrowLeft {
+                left: 0;
+            }
+
+            .CarouselArrowRight {
+                right: 0;
+            }
+        }
+    }
+
+    .TitleLogementDetailContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .TitleLogementDetail,
+    .LocationLogementDetail,
+    .TagLogementDetailContainer,
+    .HostNameLogementDetail,
+    .HostPictureLogementDetail,
+    .RatingLogementDetail {
+        flex: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .GaucheLogementDetailContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: -25px;
+    }
+
+    .DroiteLogementDetailContainer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .TitleLogementDetail {
+        color: #FF6060;
+        font-size: xx-large;
+        margin-top: 50px;
+    }
+
+    .LocationLogementDetail {
+        color: black;
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    .HostNameLogementDetail {
+        font-size: larger;
+        margin-top: 40px;
+        color: #FF6060;
+    }
+
+    .HostLogementDetailContainer {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .HostPictureLogementDetail {
+        background-color: black;
+        border-radius: 50%;
+        width: 70px;
+        height: 90px;
+        margin-top: 20px;
+    }
+
+    .TagLogementDetailContainer {
+        display: inline-block;
+    }
+
+    .TagLogementDetail {
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 500px;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            background-color: #FF6060;
+            color: white;
+            border-radius: 15px;
+            padding: 3px 15px;
+            margin-right: 10px;
+        }
+    }
+
+    .CollapseLogementDetailContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 150px;
+        width: 100%;
+    }
+
+    .EquipmentLogementDetail {
+        display: flex;
+        flex-direction: column;
+    }
+}

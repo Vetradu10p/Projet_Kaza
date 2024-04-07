@@ -1,6 +1,7 @@
 .BodyLogementDetailContainer {
     width: 90%;
     margin: auto;
+    margin-bottom: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +83,7 @@
 
 .LocationLogementDetail {
     color: black;
-    margin-top: -25px;
+    margin-top: 5px;
     text-align: left;
 }
 
@@ -100,9 +101,8 @@
 .HostPictureLogementDetail {
     background-color: black;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    right: 0;
+    width: 70px;
+    height: 90px;
     margin-top: 20px;
 }
 
@@ -135,4 +135,5 @@
     gap: 150px;
     width: 100%;
 }
+
 

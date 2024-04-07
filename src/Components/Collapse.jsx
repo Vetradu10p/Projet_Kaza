@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import flechehaut from "@/assets/Images/Components/Collapse/CollapseFlecheHaut.png";
 import flechebas from "@/assets/Images/Components/Collapse/CollapseFlecheBas.png";
 
-const Collapse = ({ title, description }) => {
+const Collapse = ({ title, description,children }) => {
 
     const [isOpen, setopen] = useState(false);
 
@@ -24,6 +24,7 @@ const Collapse = ({ title, description }) => {
                 isOpen && (
                     <div className='Collapse-description'>
                         {description}
+                        {children}
                     </div>
                 )
             }
