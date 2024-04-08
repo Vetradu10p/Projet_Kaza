@@ -45,7 +45,7 @@ const LogementDetail = () => {
             <div className='LogementDetailContainer'>
                 <Gallery pictures={logement.pictures} />
             </div>
-            <div>
+            <div className='DetailLogementContainer'>
                 <div className='TitleLogementDetailContainer'>
                     <div className='GaucheLogementDetailContainer'>
                         <h3 className='TitleLogementDetail'>{logement.title}</h3>

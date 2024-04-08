@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import flechehaut from "@/assets/Images/Components/Collapse/CollapseFlecheHaut.png";
-import flechebas from "@/assets/Images/Components/Collapse/CollapseFlecheBas.png";
+import flechehaut from "@/assets/Images/Components/Collapse/CollapseFlecheBas.png";
+import flechebas from "@/assets/Images/Components/Collapse/CollapseFlecheHaut.png";
 
 import '@/assets/Scss/Components/gallery.scss'
 

@@ -34,4 +34,7 @@
         font-weight: 300;
         font-size: 28px;
     }
+    @media screen and (max-width: $tablette) {
+        margin-top: 100px;
+    }
 }

@@ -13,6 +13,9 @@
         margin: auto;
         display: flex;
         justify-content: center;
+        @media screen and (max-width: $tablette) {
+            margin-top: 60px;
+        }
 
         .CoverContainer {
             position: relative;
@@ -51,6 +54,9 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+        @media screen and (max-width: $mobile) {
+            display: block;
+        }
     }
 
     .TitleLogementDetail,
@@ -92,11 +98,17 @@
         font-size: larger;
         margin-top: 40px;
         color: $color-primary;
+        @media screen and (max-width: $mobile) {
+            margin-top: 0;
+        }
     }
 
     .HostLogementDetailContainer {
         display: flex;
         flex-direction: row-reverse;
+        @media screen and (max-width: $mobile) {
+            display: block;
+        }
     }
 
     .HostPictureLogementDetail {
@@ -124,6 +136,7 @@
             border-radius: 15px;
             padding: 3px 15px;
             margin-right: 10px;
+            
         }
     }
 
@@ -133,10 +146,23 @@
         align-items: flex-start;
         gap: 150px;
         width: 100%;
+        @media screen and (max-width: $tablette) {
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 15px;
+        }
     }
 
     .EquipmentLogementDetail {
         display: flex;
         flex-direction: column;
+        list-style: none;
+    }
+
+    .DetailLogementContainer {
+        @media screen and (max-width: $tablette) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

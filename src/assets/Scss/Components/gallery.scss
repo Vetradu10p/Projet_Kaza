@@ -23,7 +23,7 @@
         position: absolute;
         left: 15px;
         top: 50%;
-        transform: translateY(-50%);
+        transform: rotate(90deg);
         z-index: 99;
     }
 
@@ -31,7 +31,7 @@
         position: absolute;
         right: 15px;
         top: 50%;
-        transform: translateY(-50%);
+        transform: rotate(90deg);
         z-index: 99;
     }
 
