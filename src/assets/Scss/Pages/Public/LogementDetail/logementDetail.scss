@@ -1,3 +1,5 @@
+@import '@/assets/Scss/Utils/_variables.scss';
+
 .BodyLogementDetailContainer {
     width: 90%;
     margin: auto;
@@ -75,13 +77,13 @@
     }
 
     .TitleLogementDetail {
-        color: #FF6060;
+        color: $color-primary;
         font-size: xx-large;
         margin-top: 50px;
     }
 
     .LocationLogementDetail {
-        color: black;
+        color: $color-black;
         margin-top: 5px;
         text-align: left;
     }
@@ -89,7 +91,7 @@
     .HostNameLogementDetail {
         font-size: larger;
         margin-top: 40px;
-        color: #FF6060;
+        color: $color-primary;
     }
 
     .HostLogementDetailContainer {
@@ -98,7 +100,7 @@
     }
 
     .HostPictureLogementDetail {
-        background-color: black;
+        background-color: $color-black;
         border-radius: 50%;
         width: 70px;
         height: 90px;
@@ -117,8 +119,8 @@
 
         li {
             display: inline-block;
-            background-color: #FF6060;
-            color: white;
+            background-color: $color-primary;
+            color: $color-white;
             border-radius: 15px;
             padding: 3px 15px;
             margin-right: 10px;

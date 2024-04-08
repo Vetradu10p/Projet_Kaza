@@ -1,0 +1,25 @@
+@import '@/assets/Scss/Utils/_variables.scss';
+
+.footer-container {
+    background-color: $color-black;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+
+    p {
+        color: $color-white;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        margin-top: 40px;
+
+        img {
+            filter: brightness(0) invert(1);
+            width: 100px;
+            text-align: center;
+        }
+    }
+}

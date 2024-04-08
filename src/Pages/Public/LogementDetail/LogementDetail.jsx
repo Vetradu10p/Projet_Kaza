@@ -6,10 +6,8 @@ import { LogementService } from '@/_service/logement.service';
 import Collapse from '@/Components/Collapse';
 import RatingStars from '@/Components/Star';
 import Gallery from '@/Components/Gallery';
-import Equipements from '@/Components/Equipments';
 
-// import './LogementDetail.css'
-import '@/assets/Scss/Components/logementDetail.scss'
+import '@/assets/Scss/Pages/Public/LogementDetail/logementDetail.scss'
 
 const LogementDetail = () => {
 

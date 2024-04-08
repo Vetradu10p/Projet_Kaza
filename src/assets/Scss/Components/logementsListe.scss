@@ -1,0 +1,35 @@
+@import '@/assets/Scss/Utils/_variables.scss';
+
+.logement-container {
+    background-color: $color-backgroundHome;
+    margin: 60px;
+
+    .logement-liste {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; 
+    }
+  
+    .logement-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+  
+        .logement-title {
+            position: absolute;
+            color: $color-white;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}

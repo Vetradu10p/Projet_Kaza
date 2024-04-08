@@ -4,11 +4,12 @@ import Banner from "@/Components/Banner";
 import Collapse from "@/Components/Collapse";
 
 import aboutinfo from "@/assets/Data/infocollapse.json";
-import '@/Components/collapse.css'
+import '@/assets/Scss/Components/collapse.scss'
 
 import imgbanner from "@/assets/Images/Section2.jpeg";
 
-import './about.css'
+import '@/assets/Scss/Pages/Public/About/about.scss'
+
 
 const About = () => {
     return (

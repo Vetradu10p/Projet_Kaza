@@ -1,5 +1,7 @@
+@import '@/assets/Scss/Utils/_variables.scss';
+
 .ApartementGallery {
-    background-color: #f6f6f6;
+    background-color: $color-backgroundHome;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px 30px;

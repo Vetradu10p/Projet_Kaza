@@ -1,5 +1,6 @@
 import React from 'react';
-import './star.css';
+
+import '@/assets/Scss/Components/star.scss'
 
 function getColorForRating(rating) {
     if (rating >= 1) return 'active';

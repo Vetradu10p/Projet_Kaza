@@ -7,7 +7,8 @@ import Card from '@/Components/Card';
 
 import imgbanner from "@/assets/Images/Section1.jpeg";
 
-import './home.css'
+import '@/assets/Scss/Pages/Public/Home/home.scss'
+
 
 const Home = () => {
     return (
