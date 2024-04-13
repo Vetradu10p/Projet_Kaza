@@ -80,6 +80,18 @@
         display: flex;
         flex-direction: column;
         margin-right: 0;
+        @media screen and (max-width: $mobile) {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 0;
+        }
+    }
+
+    .RatingLogementDetail {
+        @media screen and (max-width: $mobile) {
+            margin-top: 40px;
+            font-size: xxx-large;
+        }
     }
 
     .TitleLogementDetail {
@@ -99,7 +111,8 @@
         margin-top: 40px;
         color: $color-primary;
         @media screen and (max-width: $mobile) {
-            margin-top: 0;
+            font-size: 27px;
+            margin-top: 30px;
         }
     }
 
@@ -107,7 +120,6 @@
         display: flex;
         flex-direction: row-reverse;
         @media screen and (max-width: $mobile) {
-            display: block;
         }
     }
 
