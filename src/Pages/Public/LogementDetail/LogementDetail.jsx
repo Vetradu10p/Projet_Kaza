@@ -8,6 +8,7 @@ import RatingStars from '@/Components/Star';
 import Gallery from '@/Components/Gallery';
 
 import '@/assets/Scss/Pages/Public/LogementDetail/logementDetail.scss'
+import Tag from '../../../Components/Tag';
 
 const LogementDetail = () => {
 
@@ -50,7 +51,7 @@ const LogementDetail = () => {
                     <div className='GaucheLogementDetailContainer'>
                         <h3 className='TitleLogementDetail'>{logement.title}</h3>
                         <p className='LocationLogementDetail'>{logement.location}</p>
-                        <ul className='TagLogementDetail'> {logement.tags.map((tag, index) => (<li key={index}>{tag}</li>))}</ul>
+                        <ul className='TagLogementDetail'> {logement.tags.map((tag, index) => (<Tag key={index+tag} tag={tag} />))}</ul>
                     </div>
                     <div className='DroiteLogementDetailContainer'>
                         <div className='HostLogementDetailContainer' >

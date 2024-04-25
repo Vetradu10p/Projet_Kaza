@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 
-import flechehaut from "@/assets/Images/Components/Collapse/CollapseFlecheHaut.png";
 import flechebas from "@/assets/Images/Components/Collapse/CollapseFlecheBas.png";
 
-const Collapse = ({ title, description,children }) => {
+const Collapse = ({ title, description, children }) => {
 
     const [isOpen, setopen] = useState(false);
 
@@ -17,12 +16,13 @@ const Collapse = ({ title, description,children }) => {
             <div className='Collapse-header' onClick={toggleCollapse}>
                 <h2>{title}</h2>
                 <span>
-                    <img src={isOpen ? flechehaut : flechebas} alt="flechesClick" />
+                    <img src={flechebas} alt="flechesClick" className={isOpen ? 'rotate' : ''} />
+
                 </span>
             </div>
             {
                 isOpen && (
-                    <div className='Collapse-description'>
+                    <div className={`Collapse-description ${isOpen ? 'open' : ''}`}>
                         {description}
                         {children}
                     </div>

@@ -36,6 +36,14 @@
             margin-right: 10px;
             width: 60%;
         }
+
+        img {
+            transition: transform 0.8s ease;
+        }
+
+        .rotate {
+            transform: rotate(180deg);
+        }
     }
 
     .Collapse-description {
@@ -44,5 +52,27 @@
         padding: 30px 12px 27px 20px;
         font-size: 18px;
         border-radius: 0px 0px 20px 20px;
+
+
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+
+        &.open {
+            animation: fadeInDown 2s ease forwards;
+        }
+
+    }
+
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        to {
+            opacity: 1;
+            max-height: 500px;
+        }
     }
 }
